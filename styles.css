@@ -5,6 +5,10 @@ body{
 
 .assignment {
     display:flex;
+    flex-wrap:wrap;
+}
+.assignment {
+    width:30%;
     padding:10px;
     margin:10px;
     margin-bottom: 30px;
@@ -18,6 +22,8 @@ body{
     border: 4px solid #733635;
     margin-right: 20px;
     border-radius: 5px;
+    display:block;
+    margin:auto;
 }
 
 h1{
